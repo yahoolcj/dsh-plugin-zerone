@@ -4,25 +4,32 @@
 
 ## 怎么装
 
-### 方式一：让 Agent 帮你装（最省事）
+### 方式一：dsh-market 安装（最省事）
 
-把下面这句直接发给你的 DSH Agent，它会自己来读这个仓库、然后把插件装好：
+打开 DSH 的 **Plugin Market**，搜索 **yahoolcj/dsh-plugin-zerone**，点一键安装。
 
-> 请你仔细阅读 https://github.com/yahoolcj/dsh-plugin-zerone/blob/main/install.md，并且安装这个插件。
+### 方式二：手动命令
 
-### 方式二：在 dsh-market 里搜
-
-打开 DSH 的 **Plugin Market**，搜 **yahoolcj/dsh-plugin-zerone**，点一键安装就行。
-
-### 方式三：手动命令（可选）
-
-不想走上面两招，也可以自己在终端跑：
+也可以自己在终端跑：
 
 ```sh
 dsh plugin --profile web add @vigalai/dsh-plugin-zerone
 ```
 
-如果装完 ZERONE 模式没冒出来，去 profile 的 `cordis.patch.yml` 里给 `agent-presets` 配一下 preset 根目录（具体写法看仓库里的 README，或直接问 Agent）。
+如果装完 ZERONE 模式没冒出来，去 profile 的 `cordis.patch.yml` 里给 `agent-presets` 配一下 preset 根目录：
+
+```yaml
+- id: agent-presets
+  config:
+    default: standard
+    roots:
+      - path: <绝对路径>/node_modules/@vigalai/dsh-plugin-zerone/config/agent-presets
+        trust: system
+```
+
+### dsh-desktop 捆绑
+
+dsh-desktop 已预置插件与配置，安装桌面应用后开箱即用。
 
 ## 装完做什么
 
