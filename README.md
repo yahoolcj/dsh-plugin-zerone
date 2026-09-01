@@ -1,8 +1,8 @@
 # @vigalai/dsh-plugin-zerone
 
-> 让 Agent 从一次性工具升级为项目合伙人：一个会自我迭代的仓库级智能体，以规格驱动开发为纲，用一套 Skill 编排从澄清到审查的端到端闭环；同时持续沉淀项目记忆与知识复利——能力随项目成长而复利增长。越用，越懂你的项目。
+> 让 Agent 从一次性工具升级为项目合伙人：一个会自我迭代的项目级智能体，以规格驱动开发为纲，用一套 Skill 编排从澄清到审查的端到端闭环；同时持续沉淀项目记忆与知识复利——能力随项目成长而复利增长。越用，越懂你的项目。
 >
-> *A self-evolving repo-level Agent that upgrades from a one-shot tool to a project partner: it steers delivery with the SDD spec, orchestrates the end-to-end loop via a composable Skill suite, and compounds project memory and knowledge assets so it grows sharper with every task.*
+> *A self-evolving project-level Agent that upgrades from a one-shot tool to a project partner: it steers delivery with the SDD spec, orchestrates the end-to-end loop via a composable Skill suite, and compounds project memory and knowledge assets so it grows sharper with every task.*
 
 `oh-my-zerone`（OMZ）为 DeepSeek Harness（DSH）提供的内置插件：**ZERONE 模式**（Agent Preset）+ **16 个内嵌技能**（15 个 SDD 工作流技能 + omz-governance 机制技能）。
 
@@ -53,7 +53,7 @@ dsh-desktop 发行版已内置本插件与 preset 配置，安装桌面应用后
 
 技能在命令面板以 `/grill-with-docs`、`/to-prd`、`/to-coding` 等命令出现（`user-invocable`），同时进入模型技能目录（`model-invocable`）。
 
-## 仓库级机制
+## 项目级机制
 
 - **数据资产**（`docs/agent/memory.md`、`docs/knowledge/`、`docs/agent/evolution-log.md`、`.PRD/`、`.ISSUES/`）留在项目仓库，ZERONE 模式下首次进入新仓库自动创建。
 - **机制规则已内置**：仓库不需要再放置 `AGENTS.md` 或机制文档，模式 persona 为唯一权威。
