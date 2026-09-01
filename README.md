@@ -1,5 +1,9 @@
 # @vigalai/dsh-plugin-zerone
 
+> 让 Agent 从一次性工具升级为项目合伙人：一个会自我迭代的仓库级智能体，以规格驱动开发为纲，用一套 Skill 编排从澄清到审查的端到端闭环；同时持续沉淀项目记忆与知识复利——能力随项目成长而复利增长。越用，越懂你的项目。
+>
+> *A self-evolving repo-level Agent that upgrades from a one-shot tool to a project partner: it steers delivery with the SDD spec, orchestrates the end-to-end loop via a composable Skill suite, and compounds project memory and knowledge assets so it grows sharper with every task.*
+
 `oh-my-zerone`（OMZ）为 DeepSeek Harness（DSH）提供的内置插件：**ZERONE 模式**（Agent Preset）+ **16 个内嵌技能**（15 个 SDD 工作流技能 + omz-governance 机制技能）。
 
 技能内嵌于插件包，经 `ctx.skills.register()` 全局注册（运行时 rank 250），模型与用户命令双入口；**不向用户系统写入任何技能文件**。
