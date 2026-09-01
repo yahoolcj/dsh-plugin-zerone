@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grill Me UI"
+  short_description: "Clarify UI and produce a design report."
+  default_prompt: "Use grill-me-ui to clarify the UI plan from my prototype, data, or requirements, then output a design report."
