@@ -34,7 +34,7 @@ dsh plugin --profile web add @vigalai/dsh-plugin-zerone
 
 - **16 个技能**：15 个 SDD 工作流技能 + `omz-governance` 机制技能
 - **ZERONE 模式**：DSH 标准能力 + OMZ 人格（可选模式，不动你的默认设置）
-- **仓库级能力**：进新仓库自动建记忆、知识库、进化日志，越用越懂你的项目
+- **项目级能力**：进新仓库自动建记忆、知识库、进化日志，越用越懂你的项目
 
 ## 备注
 
