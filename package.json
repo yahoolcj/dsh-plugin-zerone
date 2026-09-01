@@ -1,37 +1,37 @@
-{
-  "name": "@vigalai/dsh-plugin-zerone",
-  "version": "0.1.2",
-  "description": "OMZ (oh-my-zerone) built-in plugin for DeepSeek Harness: ZERONE agent preset + 16 embedded skills (SDD workflow).",
-  "private": false,
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./preset": "./config/agent-presets/zerone/agent.cordis.yml",
-    "./package.json": "./package.json"
-  },
-  "files": [
-    "lib",
-    "skills",
-    "config",
-    "cordis.patch.yml"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yahoolcj/dsh-plugin-zerone.git"
-  },
-  "homepage": "https://github.com/yahoolcj/dsh-plugin-zerone",
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    }
-  },
-  "peerDependencies": {
-    "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-skill": "^0.1.0-rc.8"
-  },
-  "dependencies": {
-    "@deepseek-ai/schemastery": "^3.18.1"
-  }
+﻿{
+    "name":  "@vigalai/dsh-plugin-zerone",
+    "version":  "0.1.3",
+    "description":  "OMZ (oh-my-zerone) built-in plugin for DeepSeek Harness: ZERONE agent preset + 16 embedded skills (SDD workflow).",
+    "private":  false,
+    "type":  "module",
+    "main":  "lib/index.js",
+    "exports":  {
+                    ".":  "./lib/index.js",
+                    "./preset":  "./config/agent-presets/zerone/agent.cordis.yml",
+                    "./package.json":  "./package.json"
+                },
+    "files":  [
+                  "lib",
+                  "skills",
+                  "config",
+                  "cordis.patch.yml"
+              ],
+    "license":  "MIT",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/yahoolcj/dsh-plugin-zerone.git"
+                   },
+    "homepage":  "https://github.com/yahoolcj/dsh-plugin-zerone",
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            },
+    "peerDependencies":  {
+                             "@deepseek-ai/cordis":  "^4.0.1",
+                             "@deepseek-ai/dsh-skill":  "^0.1.0-rc.8"
+                         },
+    "dependencies":  {
+                         "@deepseek-ai/schemastery":  "^3.18.1"
+                     }
 }
