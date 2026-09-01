@@ -1,0 +1,12 @@
+# dsh bundle patch: inserts this plugin into a profile's layer stack.
+#
+# The row mounts the plugin on the HOST plane (unscoped context), so its
+# `ctx.skills.register()` contributions land in the GLOBAL skill layer and are
+# visible to every preset's agents. The ZERONE agent preset ships in
+# `config/agent-presets/zerone/`; register that directory via the
+# `agent-presets.roots` setting (deployment or user settings) — a patch here
+# must NOT override the `agent-presets` row's whole config, or the bundled
+# deployment presets (standard/code/cordis/minimal) would be lost.
+- insert:
+    - id: dsh-plugin-zerone
+      name: '@vigalai/dsh-plugin-zerone'
