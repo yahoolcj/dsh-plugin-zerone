@@ -8,7 +8,7 @@
 
 把下面这句直接发给你的 DSH Agent，它会自己来读这个仓库、然后把插件装好：
 
-> 请你仔细阅读 https://github.com/yahoolcj/dsh-plugin-zerone，并且安装这个插件。
+> 请你仔细阅读 https://github.com/yahoolcj/dsh-plugin-zerone/blob/main/install.md，并且安装这个插件。
 
 ### 方式二：在 dsh-market 里搜
 
