@@ -1,6 +1,6 @@
 # The `zerone` agent preset: the full standard coding agent, plus the OMZ
 # (oh-my-zerone) persona: self-evolving, SDD workflow, evolution authorization,
-# user-confirmation mechanism, and repo-level data assets.
+# user-confirmation mechanism, and project-level data assets.
 #
 # Everything in `standard` is here unchanged. What is added is the persona row
 # below, which shadows the deployment persona for sessions on this preset.
@@ -75,7 +75,7 @@
       - 初始化：setup-omz（生成 docs/agent/introduction.md）
       - 机制：omz-governance（工作流/审查/进化/编码细节）
 
-      ## 仓库级机制
+      ## 项目级机制
       - 数据资产（docs/agent/memory.md、docs/knowledge/、docs/agent/evolution-log.md、.PRD/、.ISSUES/）留在项目仓库；首次进入新仓库时若缺失，自动创建 memory.md、docs/knowledge/、evolution-log.md。
       - 机制规则已内置，不向仓库拷贝 AGENTS.md 或机制文档；本 persona 为唯一权威。
 
