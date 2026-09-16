@@ -15,8 +15,9 @@
 </div>
 
 <div align="center">
-  <img alt="ZERONE 模式出现在模式列表" src="./assets/screenshots/zerone-mode.png" width="420" />
-  <img alt="切换到 ZERONE 后的 Agent 自我介绍" src="./assets/screenshots/persona.png" width="420" />
+  <img alt="ZERONE 模式出现在模式列表" src="./assets/screenshots/zerone-mode.png" width="300" />
+  <img alt="切换到 ZERONE 后的 Agent 自我介绍" src="./assets/screenshots/persona.png" width="300" />
+  <img alt="Agent 主动发起进化申请并等待确认" src="./assets/screenshots/evolution-approval.png" width="300" />
 </div>
 
 ## 📑 目录
@@ -102,6 +103,7 @@ dsh-desktop 发行版已预置本插件与 preset 配置，安装桌面应用后
 | | |
 |---|---|
 | **🎛️ 模式列表出现 ZERONE**<br/><sub>与「标准模式 / PTC 模式 / 极简模式 / 创造模式」并列，作为可选模式存在，不改变默认设置。</sub><br/><div align="center"><img width="380" alt="ZERONE 模式" src="./assets/screenshots/zerone-mode.png" /></div> | **🧬 切换后获得 OMZ 人格**<br/><sub>自主进化、严格 SDD 工作流、进化三档授权、[用户确认] 机制、权限红线 —— persona 常驻，机制细节按需加载。</sub><br/><div align="center"><img width="380" alt="ZERONE persona" src="./assets/screenshots/persona.png" /></div> |
+| **🛡️ 进化授权：主动申请，等你点头**<br/><sub>扫描中发现可沉淀的资产（记忆 / 知识库 / 文档），或文档与代码已经不一致时，Agent 主动发起 <code>[进化申请-*]</code>，列出问题与可执行选项（A / B / C），等你确认后才动手 —— 未确认前不创建、不修改任何文件。</sub><br/><div align="center"><img width="380" alt="进化申请与用户确认" src="./assets/screenshots/evolution-approval.png" /></div> | |
 
 ## 🧩 内置技能
 
